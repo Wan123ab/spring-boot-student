@@ -1,0 +1,24 @@
+debug: false
+logging:
+    level:
+        com:
+            xiaolyuh: debug
+        org:
+            springframework:
+                data:
+                    mongodb: debug
+                transaction: debug
+                web: debug
+server:
+    port: 8016
+spring:
+    data:
+        mongodb:
+            database: test
+            host: localhost
+            port: 27017
+    jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+        serialization:
+            indent-output: true
+        time-zone: GMT+8
